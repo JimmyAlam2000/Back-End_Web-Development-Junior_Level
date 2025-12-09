@@ -1,0 +1,21 @@
+{
+  "name": "back-end-web-development-part-1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "a tutorial for intro to backend",
+  "license": "ISC",
+  "author": "Farhan",
+  "main": "Back-End/src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node Back-End/src/index.js",
+    "dev": "nodemon Back-End/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1",
+    "nodemon": "^3.1.11"
+  }
+}
